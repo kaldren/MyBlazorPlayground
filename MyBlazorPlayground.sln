@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Web", "src\Web\Blazor.Web\Blazor.Web.csproj", "{60E417CD-2322-4207-838F-FA0035216C62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B793A851-077F-474E-9CAE-B7B505DB979E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{5E0E2A9F-2CCE-44CB-9BBD-02AD35BDFFD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{48CFBB9D-7FBD-497E-9D22-603212C6D270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Api", "src\Api\Blazor.Api\Blazor.Api.csproj", "{9C76411E-DAEB-4639-A5CC-621F3163AE11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60E417CD-2322-4207-838F-FA0035216C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E417CD-2322-4207-838F-FA0035216C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E417CD-2322-4207-838F-FA0035216C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E417CD-2322-4207-838F-FA0035216C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C76411E-DAEB-4639-A5CC-621F3163AE11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C76411E-DAEB-4639-A5CC-621F3163AE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C76411E-DAEB-4639-A5CC-621F3163AE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C76411E-DAEB-4639-A5CC-621F3163AE11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60E417CD-2322-4207-838F-FA0035216C62} = {5E0E2A9F-2CCE-44CB-9BBD-02AD35BDFFD1}
+		{5E0E2A9F-2CCE-44CB-9BBD-02AD35BDFFD1} = {B793A851-077F-474E-9CAE-B7B505DB979E}
+		{48CFBB9D-7FBD-497E-9D22-603212C6D270} = {B793A851-077F-474E-9CAE-B7B505DB979E}
+		{9C76411E-DAEB-4639-A5CC-621F3163AE11} = {48CFBB9D-7FBD-497E-9D22-603212C6D270}
+	EndGlobalSection
+EndGlobal
